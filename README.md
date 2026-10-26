@@ -4,12 +4,8 @@ System design submission for the MARS Cosmetics backend engineering assessment. 
 
 ## Submission files
 
-- **[Final system design](DESIGN_FINAL.md)** — architecture, order and inventory correctness, channel integrations, failure recovery, operations, cost estimate, and delivery plan.
-- **[Final design PDF](DESIGN_FINAL.pdf)** — PDF version of the final system design.
-- **[Architecture diagram](architecture.png)** — deployment topology and data-flow overview embedded in the Markdown design.
-- **[NestJS reference implementation](MARS_NestJS_Reference_Code.zip)** — runnable reference backend illustrating the core transactional and outbox design.
-- **[Express reference implementation](MARS_Express_Reference_Code.zip)** — alternate Express reference backend with the same core domain approach.
-- **[Interview questions guide](MARS_Interview_Questions_Guide.pdf)** — preparation guide covering the design and likely follow-up questions.
+- **[Final system design](DESIGN.md)** — architecture, order and inventory correctness, channel integrations, failure recovery, operations, cost estimate, and delivery plan.
+- **[Architecture diagram](architecture.png)** — deployment topology and data-flow overview embedded in the Markdown 
 
 The standalone `DESIGN.md` and `DESIGN.pdf` files are earlier design versions. **Use `DESIGN_FINAL.md` and `DESIGN_FINAL.pdf` as the final submission.**
 
