@@ -5,6 +5,7 @@
 
 ---
 
+
 ## 1. Architecture, Contracts & Data Flow
 
 PostgreSQL is our single, non-negotiable authority for stock and orders. At our 300 orders/min (5 orders/sec) peak, message brokers (Kafka/RabbitMQ) or microservices introduce severe operational overhead, dual-write failure modes, and unneeded costs. A modular monolith in NestJS with a PostgreSQL transactional outbox delivers strict ACID guarantees and easily handles this workload for a 3-engineer team.
