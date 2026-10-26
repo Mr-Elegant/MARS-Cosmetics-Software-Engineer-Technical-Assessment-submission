@@ -32,20 +32,6 @@ The two ZIP archives are separate local reference projects. Each has its own REA
 - Single-AZ RDS is a deliberate v1 cost trade-off; the design documents its availability and recovery limits.
 - Channel stock caps target a stock-cancellation SLO and require validation against real flash-sale data.
 
-## Repository contents
-
-```text
-.
-├── DESIGN_FINAL.md
-├── DESIGN_FINAL.pdf
-├── architecture.png
-├── MARS_NestJS_Reference_Code.zip
-├── MARS_Express_Reference_Code.zip
-└── MARS_Interview_Questions_Guide.pdf
-```
-
-Other design drafts and exports may also be present in the submission folder; the files listed above are the primary final deliverables.
-
 ## Author
 
 **Preet Karwal** — Backend Engineering
